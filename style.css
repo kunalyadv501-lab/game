@@ -1,0 +1,54 @@
+body{
+text-align:center;
+font-family:Arial;
+background:#222;
+color:white;
+}
+
+#gameArea{
+width:400px;
+height:600px;
+margin:auto;
+background-image:url("images/road.png");
+background-repeat:repeat-y;
+background-size:cover;
+position:relative;
+overflow:hidden;
+border:5px solid white;
+}
+
+#car{
+width:70px;
+position:absolute;
+bottom:20px;
+left:160px;
+}
+
+.enemy{
+width:70px;
+position:absolute;
+top:-100px;
+}
+
+#enemy1{ left:70px; }
+#enemy2{ left:250px; }
+
+#score{
+position:absolute;
+top:10px;
+left:10px;
+font-size:20px;
+}
+
+#mobileControls{
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+}
+
+button{
+font-size:20px;
+margin:5px;
+padding:10px 20px;
+}
